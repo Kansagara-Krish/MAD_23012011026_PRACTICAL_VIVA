@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:gravity="center"
+    android:background="@drawable/card_bg">
+
+    <ImageView
+        android:id="@+id/imgSpeaker"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_person"
+        android:background="@drawable/circle_bg"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/tvSpeakerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speaker Name"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/tvSpeakerRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Role"
+        android:textSize="12sp"/>
+</LinearLayout>
